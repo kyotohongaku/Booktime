@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="#f3f3f3"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/currentPlayingIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/current_playing_circle_background"
+        android:contentDescription="@string/content_current_book"
+        android:src="#b1fcdf"
+        tools:ignore="RtlHardcoded" />
+
+    <FrameLayout
+        android:id="@+id/imageFrame"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="5dp">
+
+        <de.audiobook.player.uitools.SquareImageView
+            android:id="@+id/coverView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:background="@color/accent" />
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/editBook"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/popup_edit"
+        android:src="@drawable/ic_more_vert"
+        tools:ignore="NewApi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/imageFrame"
+        android:layout_toLeftOf="@id/editBook"
+        android:layout_toRightOf="@id/imageFrame"
+        android:layout_toStartOf="@id/editBook"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:text="Title of a example book which title is a bit longer than a usual title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/leftTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center_vertical"
+                android:paddingBottom="8dp"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                tools:text="01:04" />
+
+            <TextView
+                android:id="@+id/rightTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:gravity="bottom|center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                tools:ignore="RelativeOverlap"
+                tools:text="17:35" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="13dp"
+                android:layout_toEndOf="@id/leftTime"
+                android:layout_toLeftOf="@id/rightTime"
+                android:layout_toRightOf="@id/leftTime"
+                android:layout_toStartOf="@id/rightTime"
+                android:max="100"
+                tools:progress="33" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

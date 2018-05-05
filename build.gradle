@@ -1,0 +1,61 @@
+buildscript {
+  apply from: 'dependencies.gradle'
+
+  repositories {
+    jcenter()
+    google()
+    maven { url 'https://maven.fabric.io/public' }
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.1.2'
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
+    classpath "io.fabric.tools:gradle:$versions.fabric"
+  }
+}
+
+plugins {
+  id 'com.gradle.build-scan' version '1.10.3'
+  id 'com.github.ben-manes.versions' version '0.17.0'
+}
+
+buildScan { licenseAgreementUrl = 'https://gradle.com/terms-of-service'; licenseAgree = 'yes' }
+
+allprojects {
+  repositories {
+    jcenter()
+    maven { url "https://maven.google.com" }
+    mavenCentral()
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url "https://jitpack.io" }
+  }
+
+  dependencyUpdates.resolutionStrategy = {
+    componentSelection { rules ->
+      rules.all { ComponentSelection selection ->
+        def candidate = selection.candidate
+        if (['rc', 'beta', 'alpha'].any { forbidden -> candidate.version.contains(forbidden) }) selection.reject("blacklisted")
+        if (candidate.group == 'javax.annotation' && candidate.version == '1.0-20050927.133100') selection.reject()
+      }
+    }
+  }
+  configurations.all {
+    resolutionStrategy {
+      force libraries.support.v13
+      force "com.squareup.okio:okio:1.13.0"
+      force libraries.support.annotations
+      force libraries.kotlinStdLib
+      force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
+  }
+
+  apply from: "$rootProject.projectDir/versioning.gradle"
+  apply from: "$rootProject.projectDir/dependencies.gradle"
+}
+
+apply from: "predexDisabler.gradle"
+
+task importStrings(type: Exec) {
+  executable 'sh'
+  args "-c", "tx pull -af --minimum-perc=5"
+}
