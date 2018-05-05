@@ -1,15 +1,7 @@
 # Booktime
 Booktime — audiobook player
 
-
-Main features:
-
-— Adjustable playback speed
-— Bookmarks
-— Sleep timer
-— Shows progress of all your books
-— Highlights the last book you listened to
-— Equalizer
+Main features: adjustable playback speed, bookmarks, sleep timer. Shows progress of all your books. Highlights the last book you listened to. Equalizer
 
 The app supports the most popular file formats: mp3, m4b, m4a, etc. Asks for very few permissions.
 
