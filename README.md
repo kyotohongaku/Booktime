@@ -9,3 +9,6 @@ This is not an alternative to Audible. It's just a player (without a selection o
 
 Booktime is based on the open source app called Voice: https://github.com/PaulWoitaschek/Voice
 Booktime is licensed under the GNU Lesser General Public License v3.0
+
+
+![alt text] (https://raw.githubusercontent.com/markvosmann/Booktime/master/Images/Promo%20Screenshots/1.png)
