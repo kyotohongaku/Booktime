@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/spinnerTextItem"
     style="?attr/spinnerDropDownItemStyle"
@@ -9,4 +8,5 @@
     android:ellipsize="end"
     android:maxLines="3"
     android:minHeight="?attr/dropdownListPreferredItemHeight"
-    tools:text="Very very very long book name that definitely exceeds the display width width width width width width width width width width width width"/>
+    android:textSize="14sp"
+    tools:text="Very very very long book name that definitely exceeds the display width width width width width width width width width width width width" />

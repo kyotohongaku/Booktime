@@ -6,7 +6,7 @@
 
     <item
         android:id="@+id/library"
-        android:icon="@drawable/ic_folder"
+        android:icon="@drawable/add_folder"
         android:orderInCategory="87"
         android:title="@string/pref_root_folder_title"
         app:showAsAction="always" />

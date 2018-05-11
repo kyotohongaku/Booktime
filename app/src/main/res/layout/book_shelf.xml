@@ -48,14 +48,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|bottom"
-            android:layout_margin="8dp"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="6dp"
             android:contentDescription="@string/play_pause"
             android:transitionName="@string/fab_transition"
             app:fab_colorNormal="?attr/colorAccent"
             app:fab_colorPressed="?attr/colorAccentDark"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            tools:ignore="UnusedAttribute"/>
+            app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="UnusedAttribute" />
 
     </android.support.constraint.ConstraintLayout>
 

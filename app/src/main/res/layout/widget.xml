@@ -67,7 +67,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/rewind"
                 android:padding="8dp"
-                android:src="@drawable/ic_rewind_white_36dp"/>
+                android:src="@drawable/ic_fast_rewind" />
 
             <ImageButton
                 android:id="@+id/playPause"
@@ -85,7 +85,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/fast_forward"
                 android:padding="8dp"
-                android:src="@drawable/ic_fast_forward_white_36dp"/>
+                android:src="@drawable/ic_fast_forward" />
 
         </LinearLayout>
     </LinearLayout>
