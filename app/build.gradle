@@ -7,9 +7,6 @@ apply plugin: 'io.fabric'
 apply from: "../artifacts.gradle"
 
 android {
-
-  compileSdkVersion versions.compileSdk
-
   defaultConfig {
     applicationId 'com.audiobook.player'
     minSdkVersion versions.minSdk
@@ -20,7 +17,6 @@ android {
       abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
     }
   }
-
   signingConfigs {
     release {
       def signingPropFile = new File('signing.properties')
@@ -34,7 +30,6 @@ android {
       }
     }
   }
-
   buildTypes {
     release {
       minifyEnabled true
@@ -50,21 +45,16 @@ android {
       multiDexEnabled true
     }
   }
-
   testOptions.unitTests.returnDefaultValues = true
-
   lintOptions.abortOnError = false
-
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_7
     targetCompatibility JavaVersion.VERSION_1_7
   }
-
   //noinspection GroovyMissingReturnStatement
   packagingOptions {
     exclude 'META-INF/rxjava.properties'
   }
-
   flavorDimensions "free"
   productFlavors {
     opensource {
@@ -74,9 +64,9 @@ android {
       dimension "free"
     }
   }
-
   dataBinding.enabled = true
   buildToolsVersion '27.0.3'
+  compileSdkVersion 26
 }
 
 dependencies {

@@ -50,7 +50,7 @@ class AutoRewindDialogFragment : DialogFragment() {
     val TAG: String = AutoRewindDialogFragment::class.java.simpleName
 
     private val MIN = 0
-    private val MAX = 0
+    private val MAX = 30
     private val FACTOR = 10
   }
 }

@@ -50,7 +50,8 @@
     <string name="storage_pre_device">Αποθηκευτικός χώρος:</string>
     <string name="storage_all">Όλα</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Ταχύτητα αναπαραγωγής</string>
+    <string name="playback_speed_title">Ταχύτητα αναπαραγωγής</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Σελιδοδείκτης</string>
     <string name="bookmark_edit_title">Επεξεργασία σελιδοδείκτη</string>

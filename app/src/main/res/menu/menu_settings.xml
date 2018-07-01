@@ -3,8 +3,10 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_contribute"
+        android:enabled="false"
         android:icon="@drawable/ic_favorite"
         android:orderInCategory="1"
         android:title="@string/pref_support_title"
-        app:showAsAction="ifRoom"/>
+        android:visible="false"
+        app:showAsAction="never" />
 </menu>

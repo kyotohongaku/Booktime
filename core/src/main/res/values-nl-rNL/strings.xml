@@ -59,7 +59,8 @@
     <string name="storage_pre_device">Opslag:</string>
     <string name="storage_all">Alles</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Afspeelsnelheid</string>
+    <string name="playback_speed_title">Afspeelsnelheid</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Bladwijzer toevoegen</string>
     <string name="shake_to_reset">Schudden om te herstellen</string>

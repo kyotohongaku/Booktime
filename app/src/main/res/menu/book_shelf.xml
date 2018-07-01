@@ -7,13 +7,13 @@
     <item
         android:id="@+id/library"
         android:icon="@drawable/add_folder"
-        android:orderInCategory="87"
+        android:orderInCategory="2"
         android:title="@string/pref_root_folder_title"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_change_layout"
         android:icon="@drawable/view_grid"
-        android:orderInCategory="88"
+        android:orderInCategory="4"
         android:title="@string/change_layout_type"
         app:showAsAction="always" />
 
@@ -21,16 +21,16 @@
         android:id="@+id/action_current"
         android:enabled="true"
         android:icon="@drawable/ic_play_circle_outline"
-        android:orderInCategory="10"
+        android:orderInCategory="1"
         android:title="@string/current_book"
         android:visible="true"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:icon="@drawable/ic_equalizer"
+        android:orderInCategory="3"
         android:title="@string/action_settings"
-        android:visible="false"
-        app:showAsAction="never" />
+        app:showAsAction="always" />
 </menu>
 
 

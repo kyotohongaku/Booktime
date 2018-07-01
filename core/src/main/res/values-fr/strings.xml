@@ -59,7 +59,8 @@
     <string name="storage_pre_device">Stockage :</string>
     <string name="storage_all">Tous</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Vitesse de lecture</string>
+    <string name="playback_speed_title">Vitesse de lecture</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Marque-page</string>
     <string name="shake_to_reset">Agitez pour réinitialiser</string>

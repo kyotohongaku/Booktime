@@ -2,9 +2,9 @@
 <resources>
     <!-- accents -->
     <!-- pink 500 -->
-    <color name="accent">#000000</color>
+    <color name="accent">#808080</color>
     <!-- pink 700 -->
-    <color name="accentDark">#000000</color>
+    <color name="accentDark">#808080</color>
     <color name="welcomeColor">#cccccc</color>
     <!-- ## text colors -->
 
@@ -14,7 +14,7 @@
     <color name="navbarColor">@color/primaryDark</color>
     <color name="background_overlay">@color/copy_primary_text_disabled_material_light</color>
 
-    <color name="icon_color">#000000</color>
+    <color name="icon_color">#808080</color>
 
     <!-- copied private resources from appcompat -->
     <color name="copy_primary_text_disabled_material_dark">#ffffff</color>

@@ -1,5 +1,5 @@
-int major = 1
-int minor = 5
+int major = 2
+int minor = 0
 int patch = 0
 int build = 0
 String type = ""

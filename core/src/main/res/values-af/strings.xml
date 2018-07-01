@@ -48,7 +48,8 @@
     <string name="permission_read_ext_request">Moet ons weer vra vir toestemming?</string>
     <string name="permission_rescan">Versoek weer</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Terugspeel spoed</string>
+    <string name="playback_speed_title">Terugspeel spoed</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Boekmerk</string>
     <string name="bookmark_edit_title">Wysig boekmerk</string>

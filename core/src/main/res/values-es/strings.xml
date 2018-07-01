@@ -55,7 +55,8 @@
     <string name="storage_pre_device">Almacenamiento:</string>
     <string name="storage_all">Todo</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Velocidad de reproducción</string>
+    <string name="playback_speed_title">Velocidad de reproducción</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Marcador</string>
     <string name="shake_to_reset">Agitar para restablecer</string>

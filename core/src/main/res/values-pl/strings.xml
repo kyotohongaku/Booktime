@@ -61,7 +61,8 @@
     <string name="storage_pre_device">Przestrzeń dyskowa:</string>
     <string name="storage_all">Wszystko</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Szybkość odtwarzania</string>
+    <string name="playback_speed_title">Szybkość odtwarzania</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Zakładki</string>
     <string name="shake_to_reset">Wstrząśnij by zrestartować</string>

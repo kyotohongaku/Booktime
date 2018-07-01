@@ -57,7 +57,8 @@
     <string name="storage_pre_device">저장공간</string>
     <string name="storage_all">전부다</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">재생 속도</string>
+    <string name="playback_speed_title">재생 속도</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">책갈피</string>
     <string name="shake_to_reset">흔들어 초기화하기</string>

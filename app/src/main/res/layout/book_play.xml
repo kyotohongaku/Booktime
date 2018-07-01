@@ -89,7 +89,7 @@
             android:layout_marginLeft="16dp"
             android:paddingBottom="21dp"
             android:text="@string/zeroTime"
-            android:textColor="#000000"
+            android:textColor="@color/accentDark"
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@id/play"
             app:layout_constraintLeft_toLeftOf="parent" />
@@ -102,7 +102,7 @@
             android:layout_marginRight="16dp"
             android:paddingBottom="21dp"
             android:text="@string/zeroTime"
-            android:textColor="#000000"
+            android:textColor="@color/accentDark"
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@id/play"
             app:layout_constraintRight_toRightOf="parent" />

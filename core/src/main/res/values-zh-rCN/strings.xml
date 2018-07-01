@@ -58,7 +58,8 @@
     <string name="storage_pre_device">内置存储：</string>
     <string name="storage_all">所有音频</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">播放速度</string>
+    <string name="playback_speed_title">播放速度</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">书签</string>
     <string name="shake_to_reset">摇一摇以重置</string>

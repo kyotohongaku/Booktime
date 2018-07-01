@@ -61,7 +61,7 @@
     <string name="storage_pre_device">Хранилище:</string>
     <string name="storage_all">Всё</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Скорость воспроизведения</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Закладки</string>
     <string name="shake_to_reset">Встряхнуть для сброса</string>

@@ -59,7 +59,8 @@
     <string name="storage_pre_device">Lagring:</string>
     <string name="storage_all">Alla</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Uppspelningshastighet</string>
+    <string name="playback_speed_title">Uppspelningshastighet</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Bokmärke</string>
     <string name="shake_to_reset">Skaka för att nollställa</string>

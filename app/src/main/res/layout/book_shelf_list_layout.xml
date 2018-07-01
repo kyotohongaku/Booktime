@@ -7,10 +7,11 @@
     android:layout_marginBottom="16dp"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp"
-    android:background="#f3f3f3"
+    android:background="#e7e7e7"
     android:clickable="true"
     android:focusable="true"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
     <ImageView
         android:id="@+id/currentPlayingIndicator"
@@ -126,6 +127,7 @@
                 android:layout_toLeftOf="@id/rightTime"
                 android:layout_toRightOf="@id/leftTime"
                 android:layout_toStartOf="@id/rightTime"
+                android:backgroundTint="#ffffff"
                 android:max="100"
                 tools:progress="33" />
 

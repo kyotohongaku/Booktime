@@ -58,7 +58,8 @@
     <string name="storage_pre_device">ストレージ:</string>
     <string name="storage_all">すべて</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">再生速度</string>
+    <string name="playback_speed_title">再生速度</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">ブックマーク</string>
     <string name="shake_to_reset">シェイクしてリセット</string>

@@ -56,7 +56,8 @@
     <string name="storage_pre_device">حافظه:</string>
     <string name="storage_all">همه</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">سرعت پخش</string>
+    <string name="playback_speed_title">سرعت پخش</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">نشان‌گذاری</string>
     <string name="shake_to_reset">برای بازنشانی تکان دهید</string>

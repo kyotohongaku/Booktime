@@ -60,7 +60,8 @@
     <string name="storage_pre_device">Atmintinė:</string>
     <string name="storage_all">Visos</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Atkūrimo sparta</string>
+    <string name="playback_speed_title">Atkūrimo sparta</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Žymelės</string>
     <string name="shake_to_reset">Pakratykite, kad nustatyti iš naujo</string>

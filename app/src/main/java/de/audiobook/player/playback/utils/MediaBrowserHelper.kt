@@ -82,7 +82,7 @@ class MediaBrowserHelper
 
   private fun fileProviderUri(coverFile: File): Uri? {
     return if (coverFile.exists()) {
-      FileProvider.getUriForFile(context, "de.ph1b.audiobook.coverprovider", coverFile)
+      FileProvider.getUriForFile(context, "de.audiobook.player.coverprovider", coverFile)
           .apply {
             context.grantUriPermission("com.google.android.wearable.app", this, Intent.FLAG_GRANT_READ_URI_PERMISSION)
             context.grantUriPermission("com.google.android.projection.gearhead", this, Intent.FLAG_GRANT_READ_URI_PERMISSION)

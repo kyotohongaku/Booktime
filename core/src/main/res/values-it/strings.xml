@@ -58,7 +58,8 @@
     <string name="storage_pre_device">Supporto di memoria:</string>
     <string name="storage_all">Tutti</string>
     <!--PlaybackSpeed-->
-    <string name="playback_speed">Velocità di riproduzione</string>
+    <string name="playback_speed_title">Velocità di riproduzione</string>
+    <string name="playback_speed"></string>
     <!--Bookmarks-->
     <string name="bookmark">Segnalibro</string>
     <string name="shake_to_reset">Scuoti per resettare</string>
